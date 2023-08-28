@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up Color</title>
+  <link rel="stylesheet" type="text/css" href="css/Login copy.css">
+</head>
+<body id="container">
+  <header>
+    <h1 id= "mainHead">COLOR FLIPPER SIGN UP</h1>
+  </header>
+  
+  <form autocomplete="off" action=""><br>
+    <fieldset name="signUp" id="signUp">
+      Username: <br>
+      <input size="30" placeholder="username" onkeypress="userName()" name="username" id="username" type="text"/><br>
+      <span class="hint" style='visibility: hidden' id="userHint">Enter a valid username(more than 3 characters. must start and end with a letter or number.)</span><br>
+      <br>
+
+      Email
+      <input id="email" placeholder="Email address" onkeypress="emailCheck()" name="email" type="text"><br>
+      <span class="hint" style='visibility: hidden' id="emailHint">Enter a valid email!</span> <br>
+      <br>
+
+      <div class="pass">Please show you're not a robot:</div>
+      <input onpaste="return false" maxlength="8" placeholder="Enter Code" name="coder" id="coder" class="pass" type="text" required/><br><br>
+      
+      <div id="code">
+        <h3>Enter Code</h3>
+        <h3>Hello</h3>
+      </div>
+
+      <legend>Sign Up</legend>
+    </fieldset>
+  </form>
+  <button id="submitBtn">Get Started</button>
+
+  <div id="showColor" style='visibility: hidden' class="color">
+    <h1 id= "main-head">COLOR FLIPPER</h1>
+    <div id="container3">
+      
+      <p class= "container2" id="background1">Background Color:</p>
+
+      <button class="button" id="simpleButton">Primary</button>
+      <button class="button" onclick="infinite()" id="complexButton">Switch</button>
+      <button class="button" id="savedButton">Save</button>
+
+      <div id="select1Div" class="button" onclick="shade()"> Pick a shade <br>
+        <select name="firstSelect" id="firstSelect">
+          <option value="selectcard">--- Please select ---</option>
+          <option value="red">Red</option>
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select> 
+      </div>
+
+      <div id="saved">
+        <h2 id="colorhead">Saved RGB Colors</h2>
+        <ul id="ul-items" class="listed">
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <button id="f">f</button>
+</body>
+</html>
+
+<script src="login.js"></script>
+<script src="Color.js"></script>

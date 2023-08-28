@@ -1,0 +1,142 @@
+#code{
+    float: right;
+}
+#submitBtn{
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    position: relative; 
+    top: -100px;
+    right: -35px;
+}
+
+#submitBtn:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+form{
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body{
+    border-radius: 20px;
+    background-color: #5c5af7;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.container2{
+	border: 5px red solid;
+	border-width: 3px;	
+	padding: 30px;
+	margin: auto;
+	text-align: center;
+	background-color: black;
+	color: ghostwhite;
+	font-size: 50px;
+	
+	display: block;
+  	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 5vh;
+
+	position: absolute;
+	left: 50%;
+	top: 125%;
+	transform: translate(-50%, -50%);
+
+}
+
+#f{
+	position: relative;
+	top: 700px;
+
+}
+
+.color{
+	font-family: Brush Script MT;
+	font-weight: 1000;
+	text-transform: uppercase;
+	letter-spacing: 0.2;
+}
+
+#simpleButton{
+	position: absolute;
+	left: 40%;
+	top: 138%;
+	transform: translate(-50%, -50%);
+}
+
+#savedButton{
+	position: absolute;
+	left: 50%;
+	top: 138%;
+	transform: translate(-50%, -50%);
+}
+
+#complexButton{
+	position: absolute;
+	left: 60%;
+	top: 138%;
+	transform: translate(-50%, -50%);
+}
+.button{
+	display:inline-block;
+	padding:0.3em 1.2em;
+	margin:0 0.1em 0.1em 0;
+	border:0.16em solid rgba(255,255,255,0);
+	border-radius:2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-family:'Roboto',sans-serif;
+	font-weight:300;
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	text-align:center;
+	transition: all 0.2s;
+}
+
+
+
+#select1Div{
+	position: absolute;
+	transform: translate(1%, -1%);
+}
+
+#saved{
+	float: right;
+	display: inline;
+	justify-content: center;
+  	align-items: center;
+  	text-align: center;
+  	min-height: 5vh;
+	border-width: 3px;
+	padding: 30px;
+	margin: auto;
+}
+
+#ul-items{
+	font-size: 20px;
+}
